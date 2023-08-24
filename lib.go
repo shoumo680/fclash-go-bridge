@@ -37,3 +37,7 @@ func SendToPort(port int64, msg string) {
 		fmt.Println("ERROR: post to port ", port, " failed", msg)
 	}
 }
+
+func main() {
+	fmt.Println("hello clashgobridge")
+}
